@@ -2,20 +2,17 @@ import * as React from "react";
 import { styled } from "@mui/material/styles";
 import Card from "@mui/material/Card";
 import image from "../../assets/card-bg.png";
-// import CardContent from '@mui/material/CardContent';
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import { Paper, Box } from "@mui/material";
 import "../../new.css";
-// const StyledCard = styled(Card)(({ theme }) => ({
-//   padding: theme.spacing(3),
-// }));
+
 const date = 'Feb 15, 2020'
 const StyledCard = styled(Card)(({ theme }) => ({
   padding: theme.spacing(3),
   borderRadius: "10px",
   position: "relative",
-  overflow: "hidden", // To clip the background within the card boundaries
+  overflow: "hidden",
   "&::before": {
     content: '""',
     position: "absolute",
@@ -31,22 +28,22 @@ const StyledCard = styled(Card)(({ theme }) => ({
     backgroundColor: "rgba(187, 221, 240, 0.90)",
     zIndex: -1,
   },
-  overflow: "hidden", // To clip the background within the card boundaries
-  "&::before": {
-    content: '""',
-    position: "absolute",
-    top: 0,
-    left: 0,
-    right: 0,
-    bottom: 0,
-    backgroundImage: `url(${image})`,
-    backgroundPosition: "50%",
-    backgroundSize: "cover",
-    backgroundRepeat: "no-repeat",
-    backgroundAttachment: "inherit",
-    backgroundColor: "rgba(187, 221, 240, 0.90)",
-    zIndex: -1,
-  },
+  // overflow: "hidden",
+  // "&::before": {
+  //   content: '""',
+  //   position: "absolute",
+  //   top: 0,
+  //   left: 0,
+  //   right: 0,
+  //   bottom: 0,
+  //   backgroundImage: `url(${image})`,
+  //   backgroundPosition: "50%",
+  //   backgroundSize: "cover",
+  //   backgroundRepeat: "no-repeat",
+  //   backgroundAttachment: "inherit",
+  //   backgroundColor: "rgba(187, 221, 240, 0.90)",
+  //   zIndex: -1,
+  // },
 }));
 
 const Row = styled("div")(({ theme }) => ({
