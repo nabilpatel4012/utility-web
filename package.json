@@ -38,5 +38,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "main": "index.js",
+  "repository": "https://nabilpatel4012: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@github.com/nabilpatel4012/utility-web.git",
+  "author": "nabilpatel4012 <nabilpatel4012@gmail.com>",
+  "license": "MIT"
 }
