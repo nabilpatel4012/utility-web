@@ -1,0 +1,3 @@
+.main-card{
+    background: var(blue, url(./assets/card-bg.png), lightgray 50% / cover no-repeat, rgba(187, 221, 240, 0.90));
+}
