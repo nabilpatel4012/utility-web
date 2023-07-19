@@ -5,7 +5,6 @@ import image from "../../assets/card-bg.png";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import { Paper, Box } from "@mui/material";
-import "../../new.css";
 
 const date = 'Feb 15, 2020'
 const StyledCard = styled(Card)(({ theme }) => ({
@@ -28,22 +27,6 @@ const StyledCard = styled(Card)(({ theme }) => ({
     backgroundColor: "rgba(187, 221, 240, 0.90)",
     zIndex: -1,
   },
-  // overflow: "hidden",
-  // "&::before": {
-  //   content: '""',
-  //   position: "absolute",
-  //   top: 0,
-  //   left: 0,
-  //   right: 0,
-  //   bottom: 0,
-  //   backgroundImage: `url(${image})`,
-  //   backgroundPosition: "50%",
-  //   backgroundSize: "cover",
-  //   backgroundRepeat: "no-repeat",
-  //   backgroundAttachment: "inherit",
-  //   backgroundColor: "rgba(187, 221, 240, 0.90)",
-  //   zIndex: -1,
-  // },
 }));
 
 const Row = styled("div")(({ theme }) => ({
