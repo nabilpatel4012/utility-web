@@ -3,7 +3,6 @@ import { styled } from "@mui/material/styles";
 import Card from "@mui/material/Card";
 import image from "../../assets/card-bg.png";
 import Typography from "@mui/material/Typography";
-import Button from "@mui/material/Button";
 import { Paper, Box } from "@mui/material";
 
 const date = 'Feb 15, 2020'
@@ -59,7 +58,7 @@ const BillDateTypography = styled(Typography)(({ theme }) => ({
   lineHeight: "100%",
 }));
 
-export default function BillCard() {
+export default function SecondaryCard() {
   return (
     <StyledCard
       className="main-card"
@@ -230,25 +229,6 @@ export default function BillCard() {
           }}
         ></Box>
       </Paper>
-      {/* Button */}
-      <Button
-        variant="contained"
-        fullWidth
-        sx={{
-          display: "flex",
-          padding: "8px 22px",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center",
-          alignSelf: "stretch",
-          borderRadius: "4px",
-          background: "#982737",
-          boxShadow:
-            "0px 3px 1px -2px rgba(0, 0, 0, 0.20), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12)",
-        }}
-      >
-        Pay Bill
-      </Button>
     </StyledCard>
   );
 }
