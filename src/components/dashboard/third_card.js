@@ -5,7 +5,6 @@ import image from "../../assets/card-bg.png";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import { Paper, Box } from "@mui/material";
-
 const date = 'Feb 15, 2020'
 const StyledCard = styled(Card)(({ theme }) => ({
   padding: theme.spacing(3),
